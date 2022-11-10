@@ -1,0 +1,4 @@
+- "!include hagrid_category.yaml"
+- "!include hagrid_items.yaml"
+- "!include hagrid_locales.yaml"
+- "!include hagrid_vaults.yaml"

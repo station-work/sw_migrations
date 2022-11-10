@@ -1,0 +1,13 @@
+table:
+  name: items
+  schema: hagrid
+array_relationships:
+  - name: item_category
+    using:
+      manual_configuration:
+        column_mapping:
+          id_category: id
+        insertion_order: null
+        remote_table:
+          name: category
+          schema: hagrid
